@@ -11,10 +11,11 @@ import com.zh.springann.beans.User;
 * @author:Administrator 
 * @version: 
 * @date:Apr 7, 2020 4:53:56 PM
-* @info:
+* @info:spring标签控制器演示程序
 */
 @Controller
 public class SpringTagController {
+	//向名称为uname的属性中添加默认value
 	@GetMapping("springtag")
 	public ModelAndView handleReq() {
 		ModelAndView mv =new ModelAndView();
@@ -26,8 +27,6 @@ public class SpringTagController {
 	}
 	@PostMapping("springtag")
 	public String doReqPost(User u1){
-		System.out.println("姓名："+u1.getUname());
-		System.out.println("地址："+u1.getUaddr().getAddr());
 		return "welcome";
 	}
 }

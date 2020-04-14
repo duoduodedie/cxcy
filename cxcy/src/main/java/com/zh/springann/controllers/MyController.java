@@ -8,6 +8,14 @@ import org.springframework.web.servlet.ModelAndView;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+/**
+* @author:Administrator 
+* @version: 
+* @date:Apr 7, 2020 9:11:36 AM
+* @info:springmvc注解演示程序
+*/
+
 @Controller
 @RequestMapping
 public class MyController{

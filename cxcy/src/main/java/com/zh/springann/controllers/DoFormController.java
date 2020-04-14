@@ -10,7 +10,7 @@ import com.zh.springann.beans.User;
 * @author:Administrator 
 * @version: 
 * @date:Apr 7, 2020 9:11:36 AM
-* @info:
+* @info:数据绑定演示程序
 */
 @Controller
 public class DoFormController {

@@ -10,7 +10,7 @@
 </head>
 <body>
 <form:form action="springtag" method="post" modelAttribute="user">
-姓名：<form:input path="uname"/><br>
+姓名:<form:input path="uname"/><br>
 地址:<form:input path="uaddr.addr"/><br>
 <input type="submit" value="提交">
 </form:form>
